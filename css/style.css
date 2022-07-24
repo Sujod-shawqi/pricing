@@ -1,0 +1,81 @@
+@font-face {
+    font-family:KumbhSans-Bold ;
+    src: url(../fonts/KumbhSans-Bold.ttf);
+}
+@font-face {
+    font-family: KumbhSans-Regular;
+    src: url(../fonts/KumbhSans-Regular\ \(1\).ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 6%;
+}
+.header{
+    text-align: center;
+}
+.price{
+    font-family: KumbhSans-Bold;
+    font-size: 2rem;
+    color: #160637;
+}
+.build{
+    font-size: 1rem;
+    font-family: KumbhSans-Regular;
+    padding-top: 15px;
+    color: #8989A2;
+}
+.all-boxs{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    width: 700px;
+    margin: auto;
+}
+.box-free{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    margin: 12px 10px;
+    border-radius: 4px;
+}
+.free{
+   font-family:KumbhSans-Bold ;
+   font-size: 1.2rem;
+   background-color: rgb(196, 187, 187);
+   color: #160637;
+   padding: 7px;
+}
+.mo{
+    font-family: KumbhSans-Bold ;
+    padding: 10px;
+    font-size: 1rem;
+}
+.users{
+    font-family:KumbhSans-Regular ;
+    font-size: 0.8rem;
+    padding: 10px;
+}
+.sign{
+    padding: 7px 37px;
+    font-family:KumbhSans-Regular ;
+    font-size: 0.8rem;
+    border-radius: 4px;
+    border: 1.8px solid  rgb(98, 98, 202);
+    color: #ffffff;
+    background-color: #1563FF;
+    cursor: pointer;
+}
+.sign:hover{
+    background-color: #819cd1;
+}
+.start{
+    padding: 7px 48px;
+}
+.btn-sign{
+    padding: 10px;
+}

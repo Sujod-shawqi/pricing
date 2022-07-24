@@ -1,0 +1,34 @@
+@media (max-width: 575.98px) {
+    .header{
+        text-align: center;
+    }
+    .all-boxs{
+        flex-direction: column;
+        width: 508px;
+    }
+    .sign{
+        padding: 8px 154px
+    }
+    .start{
+        padding: 8px 166px;
+    }
+}
+@media (max-width: 991.98px)and(min-width: 575.98px){
+    .all-boxs{
+        width: 937px;
+       flex-wrap: wrap;
+    }
+    .sign{
+        padding: 8px 150px
+    }
+    .start{
+        padding: 8px 161px;
+    }
+    .contantus{
+        width: 857px
+
+    }
+    .contantbtn{
+        padding: 8px 383px;
+    }
+}
